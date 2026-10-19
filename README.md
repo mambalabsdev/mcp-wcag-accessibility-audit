@@ -95,7 +95,7 @@ Pay per event on Apify, billed to your Apify account. Prices in USD.
 | `domain-audited`, per domain with a rendered audit | $0.01 | $0.0095 | $0.009 | $0.0085 |
 | `page-audited`, per page after the homepage | $0.002 | $0.0019 | $0.0018 | $0.0017 |
 | `compliance-checked`, per domain with any compliance check | $0.003 | $0.00285 | $0.0027 | $0.00255 |
-| `apify-actor-start`, per run start | $0.0008 | $0.0008 | $0.0008 | $0.0008 |
+| `apify-actor-start`, per run start | $0.0025 | $0.0025 | $0.0025 | $0.0025 |
 
 Blocked, timed out, and unreachable domains are never charged.
 
