@@ -1,0 +1,51 @@
+{
+  "name": "@mambalabsdev/mcp-wcag-accessibility-audit",
+  "version": "1.0.0",
+  "description": "MCP server for WCAG Accessibility Audit. Audit any website with axe-core in a real browser and get one row per domain: WCAG 2.0, 2.1, and 2.2 issues found by automated checks by severity, top failing rules, sample elements, a score, European Accessibility Act exposure signals, and optional accessibility statement, overlay, privacy policy, Impressum, and US privacy choice checks. Runs on Apify. Clay-ready output.",
+  "type": "module",
+  "bin": {
+    "mcp-wcag-accessibility-audit": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "accessibility",
+    "wcag",
+    "axe-core",
+    "european-accessibility-act",
+    "ada",
+    "section-508",
+    "apify",
+    "clay"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/wcag-accessibility-audit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-wcag-accessibility-audit"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-wcag-accessibility-audit"
+}

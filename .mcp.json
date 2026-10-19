@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-wcag-accessibility-audit": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-wcag-accessibility-audit"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}
