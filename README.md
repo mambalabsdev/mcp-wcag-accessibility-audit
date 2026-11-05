@@ -4,7 +4,7 @@
 
 <a href="https://mcprush.com/to/wcag-accessibility-audit-mcp?ref=badge"><img width="380" height="200" src="https://mcprush.com/badge/wcag-accessibility-audit-mcp/card.svg" alt="Wcag Accessibility Audit MCP server" /></a>
 
-An MCP server for the Mamba Labs WCAG Accessibility Audit actor on Apify. Send a domain or a list. Each domain is rendered in a real browser and audited with axe-core, and you get back one row per domain: the WCAG issues automated checks find by severity, the worst failing rules, a score, European Accessibility Act exposure signals, and optional compliance page checks.
+An MCP server for the Mamba Labs [Website Accessibility Checker, WCAG 2.2 AA](https://apify.com/mambalabs/wcag-accessibility-audit) actor on Apify. Send a domain or a list. Each domain is rendered in a real browser and audited with axe-core, and you get back one row per domain: the WCAG issues automated checks find by severity, the worst failing rules, a score, European Accessibility Act exposure signals, and optional compliance page checks.
 
 ## What's Inside
 
